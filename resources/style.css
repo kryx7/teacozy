@@ -4,5 +4,21 @@ html{
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  
+
+}
+.logo{
+  height: 50px;
+  padding-left: 10px;
+}
+nav span{
+  display: inline-block;
+  text-align: right;
+  padding: 20px 10px;
+}
+header{
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  width: 100%;
+  z-index: 1;
 }
