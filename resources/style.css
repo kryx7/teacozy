@@ -5,6 +5,9 @@ html{
   background-color: black;
   opacity: 0.9;
 }
+body{
+  margin-top: 0px;
+}
 header{
   position: fixed;
   border-bottom: 1px solid seashell;
@@ -30,7 +33,7 @@ header{
 .nav{
   display: inline-block;
   align-items: flex-end;
-  padding: 10px 30px;
+  padding: 20px 30px;
   float: right;
 }
 span{
@@ -74,14 +77,17 @@ h4 {
   justify-content: center;
   flex-wrap: wrap;
   width: 1200px;
-  padding-left: 300px;
+  padding-left: 350px;
 }
-img{
+.item {
   height: 200px;
   margin: 10px;
   display: block;
 
 }
-.item1{
+p {
   text-align: center;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
