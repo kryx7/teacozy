@@ -4,16 +4,6 @@ html{
   color: seashell;
   background-color: black;
   opacity: 0.9;
-
-}
-.logo{
-  height: 50px;
-  padding-left: 10px;
-}
-nav span{
-  display: inline-block;
-  text-align: right;
-  padding: 20px 10px;
 }
 header{
   position: fixed;
@@ -21,4 +11,29 @@ header{
   display: flex;
   width: 100%;
   z-index: 1;
+  align-items: center;
+  height: 69px;
+  padding: 0 10px;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.img-logo{
+  float: left;
+  padding-left: 10px;
+}
+.nav{
+  display: inline-block;
+  align-items: flex-end;
+  padding: 10px 30px;
+  float: right;
+}
+span{
+  padding:20px 10px;
+}
+.header-container{
+  overflow: hidden;
 }
