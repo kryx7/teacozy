@@ -18,13 +18,11 @@ header{
   height: 69px;
   padding: 0 10px;
 }
-
 .flex-container{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   background-color: black;
-
 }
 .img-logo{
   float: left;
@@ -53,7 +51,6 @@ header{
   width: 1200px;
   flex-wrap: wrap;
   justify-content: center
-
 }
 .mission-text{
   background-color: black;
@@ -82,11 +79,37 @@ header{
   height: 200px;
   margin: 10px;
   display: block;
-
 }
 p {
   text-align: center;
   font-size: 22px;
   margin: 0;
   padding: 0;
+}
+.location{
+  background-image: url(C:/Users/cristina.babonea/PROJECTS/TeaCozy/resources/images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  display: flex-container-items;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+  margin-left: 350px;
+  margin-top: 100px;
+  flex-direction: column;
+  flex-basis: 280px;
+}
+.box{
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+.boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+  
 }
